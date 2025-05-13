@@ -4,7 +4,7 @@ metadata:
   name: example-service
 spec:
   selector:
-    app: nginx
+    app: deployment-1
   ports:
     - port: 8765
       targetPort: 9376
